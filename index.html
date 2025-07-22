@@ -31,7 +31,6 @@
             font-size: 2.5rem;
             font-weight: 700;
             letter-spacing: 0.1em;
-            font-family: 'Montserrat', sans-serif;
         }
 
         header p {
@@ -75,7 +74,6 @@
             font-weight: 700;
         }
 
-        /* Catálogo productos */
         .catalogo {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -124,7 +122,6 @@
             font-size: 1.1rem;
         }
 
-        /* Botón contacto */
         .btn-contacto {
             display: inline-block;
             background: #c49b5f;
@@ -141,7 +138,6 @@
             background: #a67c3a;
         }
 
-        /* Formulario contacto */
         form {
             max-width: 600px;
             margin: auto;
@@ -193,7 +189,6 @@
             margin-top: 3rem;
         }
 
-        /* Responsive */
         @media(max-width: 600px) {
             header h1 {
                 font-size: 1.8rem;
@@ -231,18 +226,16 @@
                 </div>
             </article>
             <article class="producto">
-    <img src="imagenes/jarro-milet.jpg" alt="Jarro personalizado - Milet Laboratorios" /
-     <img src="imagenes/jarro-milet.jpg" alt="Jarro personalizado - Milet Laboratorios" />
-    <div class="producto-info">
-        <h3>Jarro Personalizado Corporativo</h3>
-        <p>
-            Ideal para eventos empresariales, regalos institucionales o detalles de marca. 
-            Diseño exclusivo con acabado profesional. Aporta identidad y elegancia a tu organización.
-        </p>
-        <span>$3 USD</span>
-    </div>
-</article>
-            <!-- Puedes añadir más productos aquí -->
+                <img src="jarro-milet.jpg" alt="Jarro personalizado - Milet Laboratorios" />
+                <div class="producto-info">
+                    <h3>Jarro Personalizado Corporativo</h3>
+                    <p>
+                        Ideal para eventos empresariales, regalos institucionales o detalles de marca. 
+                        Diseño exclusivo con acabado profesional. Aporta identidad y elegancia a tu organización.
+                    </p>
+                    <span>$3 USD</span>
+                </div>
+            </article>
         </div>
     </section>
 
@@ -260,14 +253,15 @@
     <section id="contacto">
         <h2>Contacto</h2>
         <p style="text-align:center; font-size: 1.1rem;">
-    📞 Teléfono / WhatsApp: <strong>+593 09 7988 0238</strong>
-</p>
+            📞 Teléfono / WhatsApp: <strong>+593 09 7988 0238</strong>
+        </p>
 
-<div style="text-align:center; margin-top: 1.2rem;">
-    <a href="https://wa.me/593979880238" target="_blank" class="btn-contacto">
-        📲 Chatear por WhatsApp
-    </a>
-</div>
+        <div style="text-align:center; margin-top: 1.2rem;">
+            <a href="https://wa.me/593979880238" target="_blank" class="btn-contacto">
+                📲 Chatear por WhatsApp
+            </a>
+        </div>
+
         <form action="mailto:tuemail@dominio.com" method="POST" enctype="text/plain">
             <label for="nombre">Nombre</label>
             <input type="text" id="nombre" name="nombre" required />
